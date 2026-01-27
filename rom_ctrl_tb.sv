@@ -36,6 +36,7 @@ module rom_ctrl_tb();
         @(negedge i_clk);
         i_en = 1'b0;
         @(posedge i_clk);
+        @(negedge i_clk);
         assert(o_data == '0) else $error("Data is nonzero when enable is low!");
 
         i_en = 1'b1;
@@ -43,7 +44,9 @@ module rom_ctrl_tb();
             @(negedge i_clk);
             i_addr = 8'h01 << i;
             @(posedge i_clk);
-            assert (o_data == rom_ctrl.rom[i]) else $error("o_data=%x while rom[$d]=%x", o_data, i,
+            
+            @(negedge i_clk);
+            assert (o_data == rom_ctrl.rom[i]) else $error("o_data=%x while rom[%d]=%x", o_data, i,
                 rom_ctrl.rom[i]);
         end
 
