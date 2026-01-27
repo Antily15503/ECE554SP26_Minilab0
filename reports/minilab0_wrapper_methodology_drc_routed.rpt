@@ -1,0 +1,120 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Fri Jan 23 00:01:05 2026
+| Host         : ip-172-31-10-55 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : report_methodology -file minilab0_wrapper_methodology_drc_routed.rpt -pb minilab0_wrapper_methodology_drc_routed.pb -rpx minilab0_wrapper_methodology_drc_routed.rpx
+| Design       : minilab0_wrapper
+| Device       : xczu3eg-sfvc784-2-e
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 17
++-----------+----------+-------------------------------+--------+
+| Rule      | Severity | Description                   | Checks |
++-----------+----------+-------------------------------+--------+
+| TIMING-18 | Warning  | Missing input or output delay | 17     |
++-----------+----------+-------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on addr[0] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on addr[1] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on addr[2] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on addr[3] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on addr[4] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on addr[5] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on addr[6] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on addr[7] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on en relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on dout[0] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on dout[1] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on dout[2] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on dout[3] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on dout[4] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on dout[5] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on dout[6] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dout[7] relative to the rising and/or falling clock edge(s) of clk_pl_0.
+Related violations: <none>
+
+
