@@ -1,0 +1,39 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot rom_ctrl_tb_behav xil_defaultlib.rom_ctrl_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.rom_ctrl
+Compiling module xil_defaultlib.rom_ctrl_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot rom_ctrl_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ubuntu/rom_ctrl/rom_ctrl.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rom_ctrl_tb_behav -key {Behavioral:sim_1:Functional:rom_ctrl_tb} -tclbatch {rom_ctrl_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source rom_ctrl_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+YAHOO!!!
+$stop called at time : 180 ns : File "/home/ubuntu/rom_ctrl/rom_ctrl.srcs/sim_1/new/rom_ctrl_tb.sv" Line 54
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 8056.789 ; gain = 10.984 ; free physical = 12652 ; free virtual = 14239
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rom_ctrl_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 8056.789 ; gain = 10.984 ; free physical = 12652 ; free virtual = 14239
